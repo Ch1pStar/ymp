@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Жакпот</title>
+
+    <script type="text/javascript" src="../js/builder.js"></script>
+    <script type="text/javascript">
+      addEventListener('DOMContentLoaded', () => window.b = new Builder());
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="../style/main.css">
+  </head>
+  <body>
+    <h1>Жакпот builder</h1>
+
+    <div class="params">
+      <div class="input-box-container">
+        <div class="input-box">
+          <span>Brand name:</span>
+          <input class="repo-name" type="value" name="repo-name">
+        </div>
+      </div>
+
+      <div class="input-box-container pots-config">
+        <span>Pots config:</span>
+
+        <div class="input-box small add-container">
+          <button class="add-pot">+</button>
+        </div>
+
+        <div class="pot-container">
+          <div class="input-box small">
+            <span>Id:</span>
+            <input class="pot-id" type="value" name="pot-id">
+          </div>
+
+          <div class="input-box small">
+            <span>Size:</span>
+            <select class="pot-size">
+              <option>small</option>
+              <option>medium</option>
+              <option>big</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="input-box-container">
+        <div class="input-box">
+          <span>Assets path:</span>
+          <input class="assets-path" type="value" name="assets-path">
+        </div>
+      </div>
+
+      <div class="input-box-container">
+        <div class="input-box">
+          <button class="build-jackpot">Build жакпот</button>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

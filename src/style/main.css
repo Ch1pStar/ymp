@@ -1,0 +1,34 @@
+.params{
+  max-width: 176px
+}
+
+.params .pot-container {
+  display: flex;
+}
+
+.params .input-box{
+}
+
+.params .input-box + .input-box {
+  margin-left: 10px;
+}
+
+.params .input-box.small {
+  max-width: 110px;
+}
+
+.params .input-box.small input {
+  width: 30px;
+}
+
+.params .input-box.small.add-container {
+  margin: 5px auto;
+}
+
+.params .input-box.small .add-pot {
+  width: 100px;
+}
+
+.params .input-box-container + .input-box-container{
+  margin-top: 20px;
+}
